@@ -1,0 +1,10 @@
+Ex01. Faça um programa que peça o nome do usuário e mostre uma mensagem de saudação para ele:
+
+>>> Digite seu nome: Marcos
+>>> Olá Marcos, seja bem vindo!
+
+Ex02. Faça um programa que peça dois numeros e utilize o operador "+" para mostrar a soma entre eles.
+
+Ex03. Faça um programa que peça dois numeros e utilize o operador "*" para mostrar a multiplicação entre eles.
+
+Ex04. Faça um programa que peça 3 notas e calcule a média aritmetica dessas notas.

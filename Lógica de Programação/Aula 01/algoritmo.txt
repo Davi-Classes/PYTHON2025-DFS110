@@ -1,0 +1,19 @@
+Problema: Acordei com Bafo!
+
+Solução:
+
+1. LEVANTAR
+2. IR até a porta do quarto
+3. SE a porta estiver fechada ENTÃO
+    ABRIR a porta
+4. IR até o banheiro
+5. SE a porta estiver fechada ENTÃO
+    ABRIR a porta
+6. PEGAR a escova
+7. PEGAR pasta de dente
+8. PASSAR a pasta na escova
+9. ESCOVAR os dentes
+10. ENXAGUAR a boca
+
+
+Definição: "Um conjunto de passos que visam resolver um problema bem definido"

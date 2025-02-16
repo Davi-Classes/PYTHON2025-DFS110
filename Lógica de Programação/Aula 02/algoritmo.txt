@@ -1,0 +1,11 @@
+Problema: Atravessar uma rua.
+
+Solução:
+
+1. IR até a faixa de pedestre
+2. OLHAR para a esquerda
+3. OLHAR para a direita
+4. SE não estiver passando carro ENTÃO
+    ATRAVESSAR
+   SE NÃO
+    NÃO ATRAVESSAR

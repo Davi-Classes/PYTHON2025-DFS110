@@ -1,0 +1,12 @@
+Ex01. Faça um programa para saber se o usuário pode ou não tirar habilitação. Peça a idade do usuário, e se ele tiver 18 anos ou mais ele pode tirar, se não, não pode.
+
+Ex02. Faça um programa que peça dois numeros e mostre o maior entre eles.
+
+Ex03. Faça um programa que peça um numero para o usuário, e informe se ele é positivo, negativo ou neutro (igual a zero)
+
+Ex04. Faça um programa para saber se uma pessoa pode votar:
+
+- Menos que 16 -> Não pode votar
+- Menor que 18 e Maior ou Igual a 16 -> Voto Facultativo
+- Maior ou Igual a 18 e menor que 65 -> Voto Obrigatório
+- Maior que 65 -> Voto Facultativo
