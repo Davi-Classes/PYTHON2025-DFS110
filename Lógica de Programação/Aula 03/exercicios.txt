@@ -1,0 +1,5 @@
+Ex01. Faça um programa que realize uma contagem de 10 até 1 (Regressiva)
+
+Ex02. Faça um programa que peça um numero positivo para o usuário, e realize uma contagem de 1 até esse numero (ele incluso).
+
+Ex03. Faça um programa que peça 3 numeros utilizando o while e mostre a soma entre eles

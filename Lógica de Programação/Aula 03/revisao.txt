@@ -1,0 +1,8 @@
+(Revisão) Faça um programa que peça 3 notas, calcule a média e mostre a situação do aluno:
+
+APROVADO -> Media maior ou igual a 6
+RECUPERACAO -> Media maior ou igual a 4 e menor que 6
+REPROVADO -> Media menor que 4
+
+(Extra) Faça um programa que peça um ano, e informe se ele é um ano bissexto.
+OBS: para ser bissexto, o ano deve ser divisivel por 4 e não pode ser divisivel por 100, exceto os divisiveis por 400.
