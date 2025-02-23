@@ -1,0 +1,11 @@
+Ex01. Faça um programa que faça uma contagem de 10 
+até 1 utilizando o for (DICA: O passo é negativo.)
+
+Ex02. Faça um programa que mostre todos os numeros 
+pares de 1 até 50
+
+Ex03. Faça um programa onde o usuário irá fazer uma contagem
+e ele irá informar o Inicio, o Final e o Passo da contagem.
+
+Ex04. Faça um programa que peça um texto para o usuário
+e mostre a quantidade de vogais presentes nesse texto.
