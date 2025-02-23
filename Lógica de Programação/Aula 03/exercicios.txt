@@ -3,3 +3,7 @@ Ex01. Faça um programa que realize uma contagem de 10 até 1 (Regressiva)
 Ex02. Faça um programa que peça um numero positivo para o usuário, e realize uma contagem de 1 até esse numero (ele incluso).
 
 Ex03. Faça um programa que peça 3 numeros utilizando o while e mostre a soma entre eles
+
+Ex04. Faça um programa que peça uma quantidade indeterminada de numeros e pare quando o usuário pedir um numero negativo. Ao final mostre a soma dos numeros desconsiderando o numero de parada (o negativo).
+
+Ex05. Faça um programa que peça varios numeros, e após cada numero pergunte se o usuário deseja continuar (ele deve responder 'S' para Sim e 'N' para Não), quando essa resposta for 'N' você deve parar a repetição e mostrar a média dos numeros digitados.
