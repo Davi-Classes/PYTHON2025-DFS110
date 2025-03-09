@@ -1,0 +1,20 @@
+Ex01. Faça um programa que peça 3 numeros para o usuário
+e mostre a soma dos numeros (utilizando o FOR).
+
+Ex02. Você está fazendo um programa para calcular médias.
+O programa deve solicitar ao usuário a quantidade de numeros
+e depois pedir essa quantidade.
+Ao final, mostre a média dos numeros inseridos.
+
+Ex03. Faça um programa que peça 5 numeros para o usuário
+e mostre o maior numero inserido.
+
+Ex04. Faça um programa que peça uma quantidade indeterminada
+de numeros para o usuário, após cada numero 
+pergunte "Deseja continuar? [S/N]".
+Quando o usuário encerrar, mostre:
+- Quantidade de Numeros Inseridos
+- Menor Numero
+- Maior Numero
+- Soma dos Numeros
+- Média dos Numeros
