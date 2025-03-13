@@ -2,8 +2,8 @@
 Repositório para armazenar codigos das aulas da turma DFS110
 
 ## Módulos
-- Lógica de Programação (Finalizado)
-- Python (Em Andamento)
+- Lógica de Programação (Em Andamento)
+- Python (Não Visto)
 
 ## Listas de Exercicio
 https://wiki.python.org.br/ListaDeExercicios
