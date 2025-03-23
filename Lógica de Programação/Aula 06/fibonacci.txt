@@ -1,0 +1,7 @@
+Faça um programa que pede um numero para o usuário, e mostre o enésimo valor da sequencia de fibonacci. Exemplo:
+
+Até qual numero deseja mostrar fibonacci? 
+>>> 8
+0 1 1 2 3 5 8 13
+
+OBS: a sequencia de fibonacci começa com "0" e "1" e o proximo termo é a soma dos dois anteriores.
