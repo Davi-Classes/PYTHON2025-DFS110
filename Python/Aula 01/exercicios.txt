@@ -1,0 +1,8 @@
+Ex01. Crie uma lista preenchida com 5 elementos, e mostre na tela:
+- O 1º elemento
+- O elemento no indice 3
+- O ultimo elemento
+
+Ex02. Faça um programa que peça 5 nomes e mostre todos os nomes digitados
+
+Ex03. Faça um programa que peça 6 numeros e armazene-os em uma lista. Ao final, mostre a soma entre os numeros.
