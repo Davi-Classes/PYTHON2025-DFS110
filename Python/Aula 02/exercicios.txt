@@ -1,0 +1,7 @@
+Ex01. Faça um programa que peça as informações de uma pessoa (nome, altura e idade) e armazene em um dicionário, ao final mostre as informações dessa pessoa.
+
+Ex02. Faça um programa que peça o nome e 3 notas de um aluno, essas informações devem ser salvas em um dicionário com as chaves "nome" e "notas" (notas deve ser uma lista com as 3 notas). 
+
+Depois, calcule a média do aluno e sua situação (APROVADO se a nota for maior ou igual a 6, se não reprovado) e armazene essas informações em 2 novas chaves
+
+Ao final mostre todas as informações do aluno.
