@@ -5,3 +5,15 @@ Ex02. Faça um programa que peça o nome e 3 notas de um aluno, essas informaç�
 Depois, calcule a média do aluno e sua situação (APROVADO se a nota for maior ou igual a 6, se não reprovado) e armazene essas informações em 2 novas chaves
 
 Ao final mostre todas as informações do aluno.
+
+Ex03. Faça um programa que peça um texto para o usuário e crie um dicionário que irá conter todas as letras e suas respectivas quantidades, exemplo:
+
+Entrada:
+>>> Digite um Texto: Casa
+
+Saída:
+{
+    'c': 1,
+    'a': 2,
+    's': 1
+}
