@@ -1,0 +1,8 @@
+Modulos:
+
+Modulos são arquivos Python que contém funções (classes e variaveis) que podem ser importadas de outros arquivos.
+
+Pacotes:
+
+Pacotes são pastas que contém um conjuto de módulos, para serem declarados precisam conter um arquivo `__init__.py` dentro delas.
+Na importação, pacotes se comportam como modulos

@@ -1,0 +1,12 @@
+1. Criando Ambiente Virtual
+>> python3 -m venv .venv
+
+2. Ativando Ambiente Virtual
+Linux: 
+>> source .venv/bin/activate
+
+Windows: 
+>> .venv/Scripts/activate
+
+3. Instalando o Pandas
+>> pip install pandas
