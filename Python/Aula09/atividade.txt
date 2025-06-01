@@ -1,0 +1,22 @@
+Curriculo Online!
+
+Faça um curriculo online utilizando o Streamlit!
+O curriculo deve conter:
+
+- Sobre Mim:
+Deve conter um titulo, um pagrafo de apresentação 
+e opcionalmente uma imagem
+Pode colocar também contatos como celular e email
+
+- Habilidades
+Liste suas principais habilidades.
+
+- Experiências Profissionais
+Deve conter uma lista não ordenada com suas esperiências profissionais e uma descrição.
+Pode utilizar também titulos de Hierarquia menor e listar as atividades em listas não ordenadas
+
+- Educação
+Formações, Cursos e Certificados
+
+- Liguagens (Português, Inglês e etc...)
+Liste as suas principais linguagens que você domina
