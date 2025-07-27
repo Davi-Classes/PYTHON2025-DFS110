@@ -1,0 +1,54 @@
+Ex01. Você foi contratado para implementar um programa de gerenciamento de uma empresa, e deve implementar as classes para representar os funcionarios:
+
+a)
+-> Funcionario
+
+- nome
+- cpf
+- salario_bruto
+
+- calcular_salario_liquido() 
+
+OBS: O salário liquido da classe funcionario base é o "salario_bruto" - 3%
+
+b)
+-> Gerente
+
+- nome
+- cpf
+- salario_bruto
+- setor
+
+- calcular_salario_liquido() 
+
+OBS: O salário liquido da classe gerente é o "salario_bruto" - 7%
+OBS²: O gerente continua sendo um funcionario, então utilize herança
+
+-------------------------------------------------------------------------------
+Ex02. Você deverá implementar uma calculadora de impostos para pessoa juridica, seu dever será
+utilizar a classe base abaixo para implementar 3 tipos de impostos:
+
+```
+class Imposto:
+    def calcular(self, valor: float):
+        return 0
+```
+
+a) Implemente a classe "DAS" que deve retornar 6% do valor informado
+b) Implemente a classe "ISS" que deve retornar 5% do valor informado
+c) Implemente a classe "IRPJ" que deve retornar 10% do valor informado
+d) Ao final implemente uma funcao chamada "calcular_impostos" que irá receber um "valor" (float) e os "impostos" (list[Imposto]), essa função deve deduzir todos os impostos da lista do valor informado.
+
+Exemplo de Utilização
+
+```
+def calcular_impostos(valor: float, impostos: list[Imposto]) -> float:
+    ...
+
+valor_bruto = 8000
+impostos = [DAS(), ISS()]
+
+# valor_bruto - 11% (Das + Iss)
+valor_liquido = calcular_impostos(valor_bruto, impostos)
+print(valor_liquido)
+```
