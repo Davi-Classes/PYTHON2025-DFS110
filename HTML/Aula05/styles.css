@@ -1,0 +1,60 @@
+/* 
+Seletores CSS 
+<seletor> {
+    <prop>: <valor>;
+}
+*/
+
+/* 
+Tipos Propriedades CSS
+- Dimensionamento
+- Posicionamento
+- Decoração
+*/
+
+/* Seletor Tag */
+h1 {
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Seletor de ID */
+#principal {
+  /* Informa o Flexbox */
+  display: flex;
+  flex-direction: column;
+
+  /* Posicionamento no Eixo Principal */
+  justify-content: center;
+
+  /* Posicionamento no Eixo Transversal */
+  align-items: center;
+
+  height: 800px;
+  padding: 4px;
+  border: 2px dashed black;
+}
+
+/* Seletor de Classe */
+.box {
+  margin: 0;
+
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.green {
+  order: 0;
+  background-color: forestgreen;
+}
+
+.yellow {
+  order: -1;
+  background-color: yellow;
+}
+
+.red {
+  order: 0;
+  background-color: red;
+}

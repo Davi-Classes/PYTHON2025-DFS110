@@ -1,0 +1,144 @@
+/* Variaveis */
+:root {
+  --heading-color: hsl(0, 0%, 100%);
+  --text-color-paragraph: hsla(0, 0%, 100%, 0.75);
+
+  --text-size: 15px;
+  --purple-color: hsl(277, 64%, 61%);
+  --backgroud-color: hsl(233, 47%, 7%);
+  --background-content: hsl(244, 37%, 16%);
+}
+
+/* Reset de CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+
+  color: var(--heading-color);
+  background-color: var(--backgroud-color);
+}
+
+main {
+  min-width: 264px;
+  margin: 24px;
+}
+
+.img {
+  border-radius: 8px 8px 0px 0px;
+
+  height: 204px;
+
+  background-image: url("./images/image-header-mobile.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-color: var(--purple-color);
+  background-blend-mode: multiply;
+}
+
+.content {
+  text-align: center;
+
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  border-radius: 0px 0px 8px 8px;
+  background-color: var(--background-content);
+}
+
+.content h1 strong {
+  color: var(--purple-color);
+}
+
+.content p {
+  font-size: var(--text-size);
+  color: var(--text-color-paragraph);
+}
+
+.content .metrics {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  margin-top: 16px;
+}
+
+.content .metrics div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.content .metrics div :first-child {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.content .metrics div :last-child {
+  font-size: 12px;
+  font-family: "Lexend Deca", sans-serif;
+  letter-spacing: 1.25px;
+
+  color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+}
+
+@media (min-width: 700px) {
+  body {
+    height: 100vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  main {
+    height: 500px;
+
+    width: 100%;
+    max-width: 1200px;
+
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .img {
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 8px 8px 0px;
+    background-image: url("./images/image-header-desktop.jpg");
+  }
+
+  .content {
+    text-align: left;
+    padding: 64px;
+    padding-right: 128px;
+
+    gap: 40px;
+    width: 50%;
+    border-radius: 8px 0px 0px 8px;
+  }
+
+  .content h1 {
+    font-size: 40px;
+  }
+
+  .content p {
+    line-height: 32px;
+    font-size: 16px;
+  }
+
+  .content .metrics {
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 40px;
+  }
+}

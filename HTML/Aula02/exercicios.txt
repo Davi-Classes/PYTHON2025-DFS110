@@ -1,0 +1,8 @@
+Ex01. Faça um site que contém 3 imagens de sites famosos que devem redirecionar quando clicados (Utilize as Tags de <img> e <a>)
+
+
+Ex02. Curriculo Digital! Façam um curriculo digital utilizando HTML, ele deve conter:
+- Titulo com seu Nome
+- Tópico "Sobre Mim", que irá ter um Link para alguma Rede Social e uma Imagem (Opcionalmente Sua).
+- Tópico "Habilidades" (Lista Não Ordenada) 
+- Tópico "Experiências" (Lista Ordenada) com as mais recentes em primeiro.

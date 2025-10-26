@@ -1,0 +1,103 @@
+/* Reset de CSS */
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: hsl(30, 38%, 92%);
+}
+
+main {
+  display: flex;
+
+  height: 500px;
+  max-width: 700px;
+}
+
+main img {
+  height: 100%;
+
+  border-radius: 24px 0px 0px 24px;
+}
+
+main .content {
+  width: 50%;
+  padding: 32px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  border-radius: 0px 24px 24px 0px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+main .content p,
+main .content button {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+
+main .content .category {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+main .content p,
+main .content div {
+  color: hsl(228, 12%, 48%);
+}
+
+main .content h1 {
+  font-size: 40px;
+  font-family: "Fraunces", serif;
+}
+
+main .content div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  
+  font-family: "Fraunces", serif;
+}
+
+main .content div .price {
+  font-size: 40px;
+  font-weight: bold;
+  color: hsl(158, 36%, 37%);
+}
+
+main .content div .old-price {
+  text-decoration: line-through;
+}
+
+main .content button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  transition: 0.3s;
+
+  font-weight: bold;
+
+  border: none;
+  color: hsl(0, 0%, 100%);
+
+  padding: 16px 8px;
+  border-radius: 8px;
+  background-color: hsl(158, 36%, 37%);
+}
+
+main .content button:hover {
+  cursor: pointer;
+  background-color: hsl(158, 42%, 18%);
+}

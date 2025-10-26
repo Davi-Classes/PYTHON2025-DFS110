@@ -1,0 +1,133 @@
+:root {
+  --active-state: hsl(300, 69%, 71%);
+  --background-color: hsl(257, 40%, 49%);
+}
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--background-color);
+}
+
+header {
+  width: 100%;
+  padding: 32px;
+
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+
+  gap: 80px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./images/bg-mobile.svg");
+}
+
+header #huddle-logo {
+  height: 48px;
+}
+
+header #mockup-screen {
+  max-width: 100%;
+}
+
+main {
+  padding: 40px;
+
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 24px;
+}
+
+main h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+main button {
+  transition: 0.3s;
+  border: none;
+
+  color: var(--background-color);
+  font-weight: 500;
+
+  padding: 12px 80px;
+  border-radius: 20px;
+
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+main button:hover {
+  cursor: pointer;
+  color: white;
+  transform: scale(1.05);
+  background-color: var(--active-state);
+}
+
+footer {
+  margin-top: 32px;
+
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+footer ion-icon {
+  font-size: 24px;
+}
+
+@media (min-width: 700px) {
+  body {
+    padding-inline: 64px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./images/bg-desktop.svg");
+  }
+
+  header {
+    padding: 0;
+    width: 50%;
+
+    background-size: none;
+    background-repeat: none;
+    background-image: none;
+  }
+
+  header #huddle-logo {
+    height: 64px;
+    margin-bottom: 48px;
+  }
+
+  header #mockup-screen {
+    width: 100%;
+  }
+
+  main {
+    width: 50%;
+    padding: 0;
+    padding-left: 48px;
+
+    text-align: left;
+    display: flex; 
+    align-items: start;
+    flex-direction: column;
+  }
+
+  main h1 {
+    font-size: 48px;
+  }
+}

@@ -1,0 +1,16 @@
+Ex01. Faça uma tabela para mostrar produtos, sua tabela deve conter as colunas:
+
+- Nome
+- Categoria
+- Preço
+- Quantidade
+
+Coloque 5 produtos diferentes.
+
+
+Ex02. Faça um formulário de aplicação para uma vaga de emprego, nele o usuário deve informar:
+
+- Nome Completo
+- Telefone
+- Email
+- Curriculo

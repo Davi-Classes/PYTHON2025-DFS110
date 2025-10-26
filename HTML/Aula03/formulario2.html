@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Casdastre-se</title>
+  </head>
+  <body>
+    <h1>Faça o seu cadastro</h1>
+
+    <form>
+      <div>
+        <label for="nome"> Nome </label> <br />
+        <input type="text" name="nome" id="nome" required />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="data-nascimento"> Data de Nascimento </label> <br />
+        <input type="date" name="data-nascimento" id="data-nascimento" required />
+      </div>
+
+      <div>
+        <label for="sexo"> Sexo </label> <br>
+        <select name="sexo" id="sexo">
+          <option disabled selected> Selecione uma opção </option>
+          <option value="M">Masculino</option>
+          <option value="F">Feminino</option>
+          <option value="O">Não Informar</option>
+        </select>
+      </div>
+
+
+      <br />
+      <button type="submit">Cadastrar</button>
+    </form>
+  </body>
+</html>
